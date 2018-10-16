@@ -2,7 +2,7 @@
 # Handler to handle DB tier notifications
 
 - name: restart mysql
-  service: name=mysqld state=restarted
+  service: name=mariadb state=restarted
 
-- name: restart iptables
+#- name: restart iptables
   service: name=iptables state=restarted
