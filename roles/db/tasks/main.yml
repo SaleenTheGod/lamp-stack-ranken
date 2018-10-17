@@ -1,13 +1,6 @@
 ---
 # This playbook will install mysql and create db user and give permissions.
 
-- vars: 
-    mysqlservice: mysqld
-    mysql_port: 3306
-    dbuser: foouser
-    dbname: foodb
-    upassword: abc
-
 
 
 - name: Install Mysql package
