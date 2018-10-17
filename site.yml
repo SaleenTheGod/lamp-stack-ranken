@@ -18,7 +18,7 @@
 - name: deploy MySQL and configure the databases
   hosts: 10.200.23.116
   remote_user: root
-  - vars: 
+  vars: 
     mysqlservice: mysqld
     mysql_port: 3306
     dbuser: foouser
